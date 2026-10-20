@@ -1,7 +1,7 @@
 ---
 name: field-assistant
 description: This skill should be used when a field technician types or photographs test results (ONT LEDs, 1490/1310 nm RX, OTDR events, power meter readings), drops in photos of pits, closures, FDHs or ONTs, or pastes rough site notes and asks "what does this reading mean", "what do I test next", "is this closure compliant" or "write up the site visit". Covers FTTP drop to FDH faults. Local only.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Field Assistant

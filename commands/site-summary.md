@@ -8,7 +8,7 @@ Run the field-assistant skill in **site-summary** mode on:
 $ARGUMENTS
 
 1. Apply `copilot-common` privacy rules. Keep customer name, phone and full address out of the summary unless the technician clearly wants them in; a lot number or service reference is enough.
-2. Use the SITE VISIT SUMMARY template in `references/site-closeout-template.md`: ISSUE, TESTING, FINDINGS, REMEDIATION, FURTHER ACTION, plus TIME ON SITE and MATERIALS USED when given.
+2. Use the SITE VISIT SUMMARY template in `${CLAUDE_PLUGIN_ROOT}/skills/field-assistant/references/site-closeout-template.md`: ISSUE, TESTING, FINDINGS, REMEDIATION, FURTHER ACTION, plus TIME ON SITE and MATERIALS USED when given.
 3. Keep only tests, readings and actions the technician wrote down. Do not add tests they did not mention. If an expected test is absent, append one line after the summary: `SUGGESTED (not done): ...`.
 4. Readings with units and the point measured. Times with zone (ask only if ambiguous; default ACDT/ACST for Adelaide).
 5. FURTHER ACTION names an owner (Field, NOC, Construction, RSP, Customer) and a trigger or date; write `owner: TBC` rather than guessing.

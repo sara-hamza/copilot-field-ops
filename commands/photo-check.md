@@ -8,7 +8,7 @@ Run the field-assistant skill in **photo-check** mode on:
 $ARGUMENTS
 
 1. Apply `copilot-common` privacy rules. Number the photos. Describe each with screenshot-reader site-photo rules: location cues, condition, labels, and what cannot be judged from the image.
-2. For each photo, check the visible items against the "Photo compliance points" table in `references/site-closeout-template.md`: labels, splice protection and tray dressing, pit condition and lid, bend radius and cable support, conduit sealing and ends, water or debris, closure sealing, ONT mounting and fibre routing.
+2. For each photo, check the visible items against the "Photo compliance points" table in `${CLAUDE_PLUGIN_ROOT}/skills/field-assistant/references/site-closeout-template.md`: labels, splice protection and tray dressing, pit condition and lid, bend radius and cable support, conduit sealing and ends, water or debris, closure sealing, ONT mounting and fibre routing.
 3. Output per photo:
 ```
 PHOTO <n> (<where, as stated by the technician>)
